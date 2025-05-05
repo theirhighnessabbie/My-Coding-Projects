@@ -1,1 +1,10 @@
-https://www.jdoodle.com/a/bR5E
+public class Weather {
+    public static void main(String[] args) {
+        int temperature = 76;
+        
+        if (temperature < 85) {
+            System.out.println("It's going to be warmer with 6% chance of rain!");
+        }
+        System.out.println("Be safe out there!");
+    }
+}
